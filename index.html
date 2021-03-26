@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form >
+        <h1>Create Account</h1>
+        <p>It's free and hardly takes more than 30seconds.
+
+        </p>
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input type="text" class="input-field" minlength="6" maxlength="15" placeholder="Username" required>
+        </div>
+        <div class="input-container">
+            <i class="fa fa-send icon"></i>
+            <input type="email" class="input-field" placeholder="Email Address" maxlength="35" required>
+        </div>
+        <div class="input-container">
+            <i class="fa fa-lock icon"></i>
+            <input type="password" class="input-field" id="pass1" placeholder="Password" minlength="6" maxlength="15" required>
+            <i class="fa fa-eye icon" id="p1-guide" onclick="displayPass()"></i>
+        </div>
+        <div class="input-container">
+            <i class="fa fa-lock icon"></i>
+            <input type="password"  id="pass2" class="input-field" minlength="6" maxlength="15" placeholder="Confirm Password" required>
+        </div>
+        <button class="btn" type="submit">Sign Up</button>
+        <p>By clicking the sign up button, you agree to our</p>
+        <p><span class="diff-color">Terms & Condition </span>and <span class="diff-color">Privacy Policy.</span></p>
+
+
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
