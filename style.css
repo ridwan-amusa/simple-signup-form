@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body {   
     background-color: #F5F5F5;
     font-family:'Kumbh Sans', sans-serif; 
@@ -68,4 +69,13 @@ h1 {
 
 .diff-color {
     color: #34a853;
+}
+
+/* USED FOR JAVASCRIPT */
+.passwordsEqual {
+    border-bottom: 1px solid #34a853 !important;
+}
+
+.passwordsUnequal{
+    border-bottom: 1px solid red !important;
 }
